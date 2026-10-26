@@ -1,0 +1,10 @@
+# VPN profiles contain private keys. Keep all generated state outside Git.
+*.conf
+*.conf.dpapi
+*.key
+*.pem
+setup.json
+*.zip
+dist/
+__pycache__/
+*.pyc
